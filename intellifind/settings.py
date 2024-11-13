@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-*cl3t@u7)lrbcos8zbbx9^$-)&xkdd%f8_%!7&k+bj^e#fduq@"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -125,12 +125,5 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "home", "static")]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-ALLOWED_HOSTS = ['13.201.18.96','intellifind.ai', 'www.intellifind.ai']
-
-# Recommended for production
-SECURE_SSL_REDIRECT = True
-CSRF_COOKIE_SECURE = True
-SESSION_COOKIE_SECURE = True
-
+ALLOWED_HOSTS = ['13.201.18.96', "www.intellifind.ai", "intellifind.ai"]
