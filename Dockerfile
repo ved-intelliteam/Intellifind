@@ -45,4 +45,4 @@ COPY . /app/
 EXPOSE 8000
 
 # Run the Django application with Gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "intellifind.wsgi:application"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "intellifind.wsgi.application"]
