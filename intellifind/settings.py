@@ -117,7 +117,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -126,4 +126,4 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "home", "static")]
 
-ALLOWED_HOSTS = ['13.201.18.96', "www.intellifind.ai", "intellifind.ai"]
+ALLOWED_HOSTS = ['127.0.0.1','13.201.18.96', "www.intellifind.ai", "intellifind.ai"]
