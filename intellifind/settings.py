@@ -126,4 +126,4 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "home", "static")]
 
-ALLOWED_HOSTS = ['13.201.18.96', "www.intellifind.ai", "intellifind.ai","172.31.7.166"]
+ALLOWED_HOSTS = ['127.0.0.1','13.201.18.96', "www.intellifind.ai", "intellifind.ai","172.31.7.166"]
