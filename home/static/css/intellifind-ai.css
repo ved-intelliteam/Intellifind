@@ -1331,6 +1331,8 @@ figcaption {
 
 .text-weight-medium {
   font-weight: 500;
+  position: relative;
+  left: 10rem;
 }
 
 .header-subcontent {
@@ -1391,6 +1393,25 @@ figcaption {
   margin-left: 32px;
   font-size: 4rem;
   line-height: 1.2;
+  position: relative;
+  /* left: 3rem; */
+}
+.heading-style-h1-annual {
+  color: var(--white);
+  margin-left: 32px;
+  font-size: 4rem;
+  line-height: 1.2;
+  position: relative;
+  left: 6.5rem;
+}
+
+.heading-style-h1-B {
+  color: var(--white);
+  margin-left: 32px;
+  font-size: 4rem;
+  line-height: 1.2;
+  position: relative;
+  left: 3rem;
 }
 
 .heading-style-h1.text-color-white-gradient {
@@ -1535,6 +1556,7 @@ figcaption {
   margin-right: -35px;
   /* margin-left: -151px; */
   padding: 0.25rem;
+  font-size: 1.2rem;
 }
 
 .get-started.is-add-to-cart-button {
@@ -2145,7 +2167,7 @@ figcaption {
   mix-blend-mode: normal;
   flex-direction: column;
   align-items: center;
-  /* margin-top: -49px; */
+  margin-top: -49px;
   display: flex;
   position: relative;
 }
@@ -6483,7 +6505,7 @@ figcaption {
   min-height: 200px;
   border: 0px solid var(--border);
   border-radius: var(--border-radius-small-3);
-  text-align: center;
+  text-align: justify;
   /* background-image: linear-gradient(#1a1a1a, #1a1a1a); */
   width: 100%;
   padding: 1.8rem;
@@ -6757,13 +6779,13 @@ hr {
     top: -1rem;
   }
 
-  .text-block-6 {
+  /* .text-block-6 {
     padding-top: 0;
     font-size: 2rem;
     bottom: 4rem;
     position: relative;
-    left: 2.5rem;
-  }
+    left: 25rem;
+  } */
   hr {
     padding-left: 1rem;
     width: 70%;
@@ -7039,12 +7061,12 @@ hr {
   }
 
   #paragraph-3 {
-    text-align: center;
+    text-align: justify;
     -webkit-text-fill-color: transparent;
     background-color: #fff;
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 0.6rem !important;
+    font-size: 2.3rem;
     margin-bottom: 4rem;
     font-weight: bold;
     position: relative;
@@ -7157,18 +7179,19 @@ hr {
 }
 
 #paragraph-3 {
-  text-align: center;
+  text-align: justify;
   -webkit-text-fill-color: transparent;
   background-color: #fff;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 1.3rem;
+  font-size: 1.65rem;
   margin-bottom: 4rem;
   font-weight: bold;
   position: relative;
   top: -2rem;
   font-family: "Lato";
   padding: 0rem 7rem;
+  line-height: 2rem;
 }
 
 #paragraph-3 > span {
@@ -7202,14 +7225,28 @@ hr {
 }
 
 h1.heading-4 {
-  width: 100%;
-  font-size: 3rem;
-  text-align: center; /* This aligns the text horizontally to the center */
-  background: linear-gradient(
-    to right,
-    #2eeddd,
-    #1dbfe3
-  ); /* Replace #2ee and #ddd with the desired colors */
+  width: 80rem;
+  font-size: 5rem;
+  position: relative;
+  left: -16rem;
+  top: -4rem;
+}
+
+h1.heading-4 span {
+  background: linear-gradient(to right, #2eeddd, #1dbfe3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: "Lato";
+}
+
+.get-intelligent {
+  position: relative;
+  left: 3rem;
+  padding-top: 0;
+  font-size: 2rem;
+  bottom: 4rem;
+  position: relative;
+  left: 2.5rem;
 }

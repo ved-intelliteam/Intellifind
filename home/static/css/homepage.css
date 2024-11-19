@@ -1839,3 +1839,46 @@ body {
   width: 100%;
   margin: 20px auto;
 }
+
+.stats-banner {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.stat-container {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.stat-container:first-child {
+  border-right: 2px solid #00b8d4;
+}
+
+.stat-content {
+  display: flex;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 48px;
+  color: #00b8d4;
+  font-weight: bold;
+}
+
+.stat-text {
+  margin-left: 15px;
+}
+
+.stat-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stat-description {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
