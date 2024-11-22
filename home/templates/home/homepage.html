@@ -67,16 +67,16 @@
                                 </a>
                                 <nav role="navigation" class="navbar-menu w-nav-menu">
                                     <div class="navbar-menu-left">
-                                        <a href="#" aria-current="page"
+                                        <a href="#your-data-yor-id" aria-current="page"
                                             class="navbar-link w-nav-link w--current">Home</a>
                                         <a href="#features" class="navbar-link w-nav-link">Features</a>
                                         <a href="#Pricing" class="navbar-link w-nav-link">Pricing</a>
                                         <div class="dropdown">
-                                            <a href="#" class="navbar-link w-nav-link">Workspaces</a>
+                                            <a href="#workspaces" class="navbar-link w-nav-link">Workspaces</a>
                                             <div class="dropdown-content">
-                                                <a href="#" class="dropdown-item">Knowledge Database</a>
-                                                <a href="#" class="dropdown-item">Inventory</a>
-                                                <a href="#" class="dropdown-item">Invoice</a>
+                                                <a href="#knowledge-database" class="dropdown-item">Knowledge Database</a>
+                                                <a href="#know-our-inventory" class="dropdown-item">Inventory</a>
+                                                <a href="#know-our-invoice" class="dropdown-item">Invoice</a>
                                                 <a href="#" class="dropdown-item">Build Your Own Workspace</a>
                                             </div>
                                         </div>
@@ -105,7 +105,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-w-id="9ec08b96-1a94-30a2-69d8-7c316ea68382" class="container-large">
+                        <div data-w-id="9ec08b96-1a94-30a2-69d8-7c316ea68382" class="container-large" id="your-data-yor-id">
                             <div class="padding-section-large">
                                 <div class="header-component">
                                     <div class="header-image-circle"></div>
@@ -127,7 +127,7 @@
                                                         <div class="inner-cirle-2"></div>
                                                     </div>
                                                 </div>
-                                                <div class="margin-top margin-medium">
+                                                <div class="text-align-center">
                                                     <div class="button-group is-center">
                                                         <a href="https://blwgs4o2uca.typeform.com/to/PWoFtkdx"
                                                             class="get-started w-button">Join Waitlist
@@ -192,14 +192,17 @@
                                     <div class="banner-logos">
                                         <div class="banner-logo">
                                             <img id="usc-logo" src="{% static 'images/usc logo white.svg' %}"
+                                                onmouseover="this.src='{% static 'images/usc-new.svg' %}'" 
                                                 alt="USC Logo" data-hover="{% static 'images/usc-new.svg' %}">
                                         </div>
                                         <div class="banner-logo">
                                             <img id="mit-logo" src="{% static 'images/MIT.svg' %}" alt="MIT Logo"
+                                            onmouseover="this.src='{% static 'images/mit-color.svg' %}'"
                                                 data-hover="{% static 'images/mit-color.svg' %}">
                                         </div>
                                         <div class="banner-logo">
                                             <img id="linkedin-logo" src="{% static 'images/linkedin.svg' %}"
+                                            onmouseover="this.src='{% static 'images/linkedin-color.svg' %}'"
                                                 alt="LinkedIn Logo"
                                                 data-hover="{% static 'images/linkedin-color.svg' %}">
                                         </div>
@@ -283,7 +286,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-feature">
+            <!-- <section class="section-feature">
                 <div class="padding-global">
                     <div class="container-large"></div>
                 </div>
@@ -297,29 +300,33 @@
                 <div class="padding-global">
                     <div class="container-large"></div>
                 </div>
-            </section>
+            </section> -->
 
             <div>
-                <span id="why-matter">Why Intellifind Matters?</span>
+                <h2 id="why-matter" class="margin-bottom margin-xxlarge">Why Intellifind Matters?</h2>
                 <div class="intellifind-matters"
-                    style="background-color: #131314; color: white; padding: 20px; display: flex; font-family: Arial, sans-serif; position: relative; width: 100%; justify-content: space-between;">
-                    <div style="flex: 1; border-right: 2px solid #00b8d4; padding-right: 20px; box-sizing: border-box;">
+                    style="background-color: #131314; color: white; padding: 20px 20px 0; display: flex; font-family: Arial, sans-serif; position: relative; width: 100%; justify-content: space-between; border-bottom: 2px solid #00b8d4;">
+                    <div style="flex: 1; border-right: 2px solid #00b8d4; padding-right: 20px; box-sizing: border-box; margin-left: 2rem;">
                         <div style="display: flex; align-items: center;">
-                            <span style="font-size: 8vw; color: #00b8d4; font-weight: bold;">90%</span>
                             <div style="margin-left: 15px;">
-                                <div style="font-size: 4vw; font-weight: bold;">Unstructured Data</div>
-                                <div style="font-size: 2.5vw;">Most data is unstructured, making it difficult to
-                                    analyze.</div>
+                                <!-- <div style="font-size: 4vw; font-weight: bold; text-align: center;">Unstructured Data</div> -->
+                                <div class="d-flex-child-50">
+                                    <div style="font-size: 8vw; color: #00b8d4; font-weight: bold;">90%</div>
+                                    <div style="font-size: 1.6vw; text-align: justify;">Unstructured Data: Most data is unstructured, making it difficult to
+                                        analyze.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div style="flex: 1; padding-left: 20px; box-sizing: border-box;">
+                    <div style="flex: 1; padding-left: 20px; box-sizing: border-box; margin-right: 3rem;">
                         <div style="display: flex; align-items: center;">
-                            <span style="font-size: 8vw; color: #00b8d4; font-weight: bold;">2/3</span>
                             <div style="margin-left: 15px;">
-                                <div style="font-size: 4vw; font-weight: bold;">Data Unused</div>
-                                <div style="font-size: 2.5vw;">Two-thirds of company data goes unused due to various
-                                    challenges.</div>
+                                <!-- <div style="font-size: 4vw; font-weight: bold; text-align: center;">Data Unused</div> -->
+                                <div class="d-flex-child-50">
+                                    <span style="font-size: 8vw; color: #00b8d4; font-weight: bold;">2/3</span>
+                                    <div style="font-size: 1.6vw; text-align: justify;">Data Unused: Two-thirds of company data goes unused due to various
+                                        challenges.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -339,13 +346,13 @@
                     <div class="container-large">
                         <div class="padding-section-large">
                             <div class="video-header-component">
-                                <div class="margin-bottom margin-xxlarge">
+                                <div>
                                     <div class="text-align-center">
                                         <div class="max-width-large">
                                             <div class="margin-bottom margin-small">
                                                 <h1 data-w-id="c88cbd02-cf69-be1f-b5e2-88f38c6de480"
                                                     style="opacity:0;-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                                    class="heading-4"><span>Our Workspaces:<br></span> For your
+                                                    class="heading-4"><p class="our-workspaces">Our Workspaces:<br></p> For your
                                                     specialized
                                                     needs</h1>
 
@@ -398,7 +405,7 @@
                 </div>
             </header>
 
-            <section class="section-features">
+            <section class="section-features" id="knowledge-database">
                 <div class="padding-global">
                     <div class="container-large">
                         <div class="padding-section-large">
@@ -413,7 +420,7 @@
                                 <div id="w-node-f5813092-fe70-00d7-43ac-4a891a8d54f2-e87d3a51"
                                     class="features-5-content-right">
                                     <div class="features-content-item content-item-1">
-                                        <div class="layout-circle _1"></div>
+                                        <div class="layout-circle_1"></div>
                                         <div class="margin-bottom margin-xsmall"><img
                                                 src="{% static 'images/engage.png' %}" loading="lazy" alt="Icon"
                                                 class="icon-1x1-medium"></div>
@@ -532,7 +539,7 @@
             </header>
 
 
-            <section class="invoicewhiz-section-features">
+            <section class="invoicewhiz-section-features" id="know-our-invoice">
                 <div class="padding-global">
                     <div class="container-large">
                         <div class="padding-section-large">
@@ -547,7 +554,7 @@
                                 <div id="w-node-f5813092-fe70-00d7-43ac-4a891a8d54f2-e87d3a51"
                                     class="chatbot-features-5-content-right">
                                     <div class="features-content-item content-item-1">
-                                        <div class="layout-circle _1"></div>
+                                        <div class="layout-circle_1"></div>
                                         <div class="margin-bottom margin-xsmall"><img
                                                 src="{% static 'images/Eliminate Manual Processing.svg' %}"
                                                 loading="lazy" alt="Icon" class="icon-1x1-medium"></div>
@@ -557,7 +564,7 @@
                                         <p><br>Streamline your invoicing with automation, reducing the need for manual
                                             entry and improving accuracy.<br>‍</p>
                                     </div>
-                                    <div class="features-content-item content-item-2">
+                                    <div class="features-content-item content-item-1">
                                         <div class="layout-circle _2"></div>
                                         <div class="margin-bottom margin-xsmall"><img
                                                 src="{% static 'images/CSV Conversion.svg' %}" loading="lazy" alt="Icon"
@@ -569,7 +576,7 @@
                                             reporting.</p>
                                     </div>
                                     <div class="features-content-item content-item-1">
-                                        <div class="layout-circle _3"></div>
+                                        <div class="layout-circle_3"></div>
                                         <div class="margin-bottom margin-xsmall"><img
                                                 src="{% static 'images/Multi-Format Acceptance.svg' %}" loading="lazy"
                                                 alt="Icon" class="icon-1x1-medium"></div>
@@ -652,7 +659,7 @@
                 </div>
             </header>
 
-            <section class="section-features">
+            <section class="section-features" id="know-our-inventory">
                 <div class="padding-global">
                     <div class="container-large">
                         <div class="padding-section-large">
@@ -667,7 +674,7 @@
                                 <div id="w-node-f5813092-fe70-00d7-43ac-4a891a8d54f2-e87d3a51"
                                     class="features-5-content-right">
                                     <div class="features-content-item content-item-1">
-                                        <div class="layout-circle _1"></div>
+                                        <div class="layout-circle_1"></div>
                                         <div class="margin-bottom margin-xsmall"><img
                                                 src="{% static 'images/Real-Time Updates.svg' %}" loading="lazy"
                                                 alt="Icon" class="icon-1x1-medium"></div>
@@ -720,7 +727,7 @@
                         any size to leverage their data for better decision-making.
                     </p>
                 </div>
-                <div class="pricing-tabs-menu w-tab-menu">
+                <div class="pricing-tabs-menu w-tab-menu" id="pricing-monthly-yearly">
                     <a data-w-tab="Tab 1" class="pricing-tab-link w-inline-block w-tab-link w--current">
                         <div>Monthly</div>
                     </a>
@@ -739,9 +746,9 @@
                                     <div class="text-block-3">No Credit card Required</div>
                                     <div class="pricing-divider"></div>
                                     <div class="margin-vertical margin-xxsmall">
-                                        <div class="heading-style-h1">        Free</div>
+                                        <div class="heading-style-h1">Free</div>
                                     </div>
-                                    <div class="margin-top margin-medium">
+                                    <div class="text-align-center">
                                         <a href="https://blwgs4o2uca.typeform.com/to/PWoFtkdx"
                                             class="get-started max-width-full w-button">Join Waitlist
                                         </a>
@@ -787,7 +794,7 @@
                                             <div class="heading-style-h1 text-color-white-gradient">$15<span
                                                     class="heading-style-h4">/mo</span></div>
                                         </div>
-                                        <div class="margin-top margin-medium">
+                                        <div class="text-align-center">
                                             <a href="https://blwgs4o2uca.typeform.com/to/PWoFtkdx"
                                                 class="get-started max-width-full w-button">Join Waitlist</a>
                                         </div>
@@ -843,7 +850,7 @@
                                         <div class="heading-style-h1 text-color-white-gradient">$30<span
                                                 class="heading-style-h4">/mo</span></div>
                                     </div>
-                                    <div class="margin-top margin-medium">
+                                    <div class="text-align-center">
                                         <a href="https://blwgs4o2uca.typeform.com/to/PWoFtkdx"
                                             class="get-started max-width-full w-button">Join Waitlist</a>
                                     </div>
@@ -890,10 +897,10 @@
                                     <div class="text-block-5">No Credit Card Required</div>
                                     <div class="pricing-divider"></div>
                                     <div class="margin-vertical margin-xxsmall">
-                                        <div class="heading-style-h1-annual">Free</div>
+                                        <div class="heading-style-h1">Free</div>
                                     </div>
                                     <div class="text-weight-medium"><strong>&nbsp;</strong></div>
-                                    <div class="margin-top margin-medium">
+                                    <div class="text-align-center">
                                         <a href="#" class="get-started max-width-full w-button">Join Waitlist</a>
                                     </div>
                                     <div class="pricing-divider"></div>
@@ -935,7 +942,7 @@
                                             <div class="heading-style-h1-B">$144/yr</div>
                                         </div>
                                         <div class="text-weight-medium"><strong>Save 20%</strong></div>
-                                        <div class="margin-top margin-medium">
+                                        <div class="text-align-center">
                                             <a href="/product/business-plan"
                                                 class="get-started max-width-full w-button">Join Waitlist</a>
                                         </div>
@@ -988,7 +995,7 @@
                                         <div class="heading-style-h1-B">$288/yr</div>
                                     </div>
                                     <div class="text-weight-medium"><strong>Save 20%</strong></div>
-                                    <div class="margin-top margin-medium">
+                                    <div class="text-align-center">
                                         <a href="/product/enterprise-plan"
                                             class="get-started max-width-full w-button">Join Waitlist</a>
                                     </div>
@@ -1046,7 +1053,7 @@
                                         <!-- <h1 class="heading-7">Get Intelligent. </h1> -->
                                     </div>
                                     <p class="header-subcontent"></p>
-                                    <div class="margin-top margin-medium">
+                                    <div class="text-align-center">
                                         <div class="button-group is-center">
                                             <a href="#" class="get-started w-button">Join Waitlist</a>
 

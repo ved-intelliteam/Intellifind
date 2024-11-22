@@ -4571,6 +4571,7 @@ figcaption {
 
 .section-video-header.background-cell {
   margin-top: -150px;
+  overflow-x: hidden;
 }
 
 .button-2 {
