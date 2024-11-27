@@ -1304,8 +1304,8 @@ figcaption {
 
 .text-weight-medium {
   font-weight: 500;
-text-align: center;
-margin-bottom: 0.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .header-subcontent {
@@ -1379,7 +1379,7 @@ margin-bottom: 0.5rem;
   color: var(--white);
   font-size: 4rem;
   line-height: 1.2;
-text-align: center;
+  text-align: center;
 }
 
 .form-checkbox-icon {
@@ -1505,7 +1505,7 @@ text-align: center;
   padding: 0;
   line-height: 2.7rem;
   top: -50px;
-  margin-left: 78%;
+  margin-left: 85%;
 }
 
 .get-started.is-small {
@@ -1555,13 +1555,14 @@ text-align: center;
   border-radius: var(--border-radius-small-3);
   background-color: var(--background-secondary);
   color: var(--paragraph);
-  width: 75% !important;
+  width: 80% !important;
   /* height: auto; */
   min-height: 2.75rem;
   /* margin-left: 27px; */
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
   line-height: 1.6;
+  margin-top: 2%;
 }
 
 .form-input:focus,
@@ -3215,6 +3216,7 @@ text-align: center;
   /* margin-bottom: 3.6rem;
   margin-left: 44rem; */
   padding: 2rem 3.5rem 2rem 2rem;
+  width: 40%;
   /* display: block; */
 }
 
@@ -5474,10 +5476,9 @@ h1.heading-4 span {
 }
 
 @media screen and (max-width: 991px) {
- 
   .header-image {
-margin-top: 0;
-}
+    margin-top: 0;
+  }
   .hero-tittle-class {
     margin-top: 120px;
   }
@@ -6660,7 +6661,7 @@ margin-top: 0;
   .hero-tittle-class {
     font-size: 4rem;
     margin-top: 90px;
-}
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -6888,7 +6889,7 @@ margin-top: 0;
     padding: 0;
     line-height: 2.7rem;
     top: -50px;
-    margin-left: 78%;
+    margin-left: 90%;
   }
 
   .paragraph-first {
