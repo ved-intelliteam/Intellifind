@@ -16,7 +16,6 @@
     <link href="/static/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="/static/css/webflow.css" rel="stylesheet" type="text/css">
     <link href="/static/css/intellifind-ai.css" rel="stylesheet" type="text/css">
-    <link href="/static/css/responsive-home.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <style>
         @media (min-width:992px) {
@@ -117,7 +116,7 @@
                                             <h1 class="heading-3"><span class="hero-tittle-class">Intellifind.ai</span>
                                             </h1>
                                             <h2 class="header-subtitle">Your Data, Your
-                                                    AI
+                                                AI
                                             </h2>
                                             <div data-w-id="9ec08b96-1a94-30a2-69d8-7c316ea68387"
                                                 style="opacity:0;-webkit-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
@@ -194,19 +193,20 @@
                                         Built with Learnings from</h1>
                                     <div class="banner-logos">
                                         <div class="banner-logo">
-                                            <img id="usc-logo" src="{% static 'images/usc logo white.png' %}" alt="USC Logo"
-                                                data-hover="{% static 'images/usc-new.png' %}">
+                                            <img id="usc-logo" src="{% static 'images/usc logo white.png' %}"
+                                                alt="USC Logo" data-hover="{% static 'images/usc-new.png' %}">
                                         </div>
                                         <div class="banner-logo">
                                             <img id="mit-logo" src="{% static 'images/MIT.svg' %}" alt="MIT Logo"
                                                 data-hover="{% static 'images/mit-color.svg' %}">
                                         </div>
                                         <div class="banner-logo">
-                                            <img id="linkedin-logo" src="{% static 'images/linkedin.svg' %}" alt="LinkedIn Logo"
+                                            <img id="linkedin-logo" src="{% static 'images/linkedin.svg' %}"
+                                                alt="LinkedIn Logo"
                                                 data-hover="{% static 'images/linkedin-color.svg' %}">
                                         </div>
                                     </div>
-                                
+
                                     <script>
                                         document.querySelectorAll('.banner-logo img').forEach(img => {
                                             const originalSrc = img.src;
@@ -230,7 +230,7 @@
                                         <div class="text-align-center">
                                             <h3 class="heading-5"><span class="tagline">Optimize your operations
                                                     with</span>
-                                            <h1 class="heading-6">Intellifind.ai</h1>
+                                                <h1 class="heading-6">Intellifind.ai</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -326,7 +326,8 @@
                                 <!-- <div style="font-size: 4vw; font-weight: bold; text-align: center;">Unstructured Data</div> -->
                                 <div class="d-flex-child-50">
                                     <div style="font-size: 8vw; color: #00b8d4; font-weight: bold;">90%</div>
-                                    <div style="font-size: 1.6vw; text-align: justify;"><span style="font-weight: bold;">Unstructured Data:</span> Most data is
+                                    <div style="font-size: 1.6vw; text-align: justify;"><span
+                                            style="font-weight: bold;">Unstructured Data:</span> Most data is
                                         unstructured, making it difficult to
                                         analyze.</div>
                                 </div>
@@ -339,7 +340,8 @@
                                 <!-- <div style="font-size: 4vw; font-weight: bold; text-align: center;">Data Unused</div> -->
                                 <div class="d-flex-child-50">
                                     <span style="font-size: 8vw; color: #00b8d4; font-weight: bold;">2/3</span>
-                                    <div style="font-size: 1.6vw; text-align: justify;"><span style="font-weight: bold;">Data Unused:</span> Two-thirds of
+                                    <div style="font-size: 1.6vw; text-align: justify;"><span
+                                            style="font-weight: bold;">Data Unused:</span> Two-thirds of
                                         company data goes unused due to various
                                         challenges.</div>
                                 </div>
@@ -1214,7 +1216,7 @@
                     <a href="#workspaces" class="footer-link">Workspace</a>
                 </div>
                 <div class="footer-newsletter-wrapper">
-    
+
                     <div class="footer-form-block w-form">
                         <div class="text-weight-semibold text-size-medium">Join our newsletter</div>
                         <div>
@@ -1224,7 +1226,8 @@
                                 {% csrf_token %}
                                 <input class="form-input w-input" maxlength="256" name="email" data-name="Email"
                                     placeholder="Enter your email" type="email" id="Subscribe-email" required>
-                                <button type="submit" class="get-started is-secondary is-small w-button">Subscribe</button>
+                                <button type="submit"
+                                    class="get-started is-secondary is-small w-button">Subscribe</button>
                             </form>
                         </div>
                         <div class="text-size-tiny">By subscribing you agree to with our <a href="#"><span
@@ -1236,12 +1239,12 @@
                             <div>{{ message }}</div>
                         </div>
                         {% endif %}
-    
+
                         <div class="error-message w-form-fail">
                             <div>Oops! Something went wrong while submitting the form.</div>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>
