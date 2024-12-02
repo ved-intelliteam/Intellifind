@@ -2103,7 +2103,6 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   align-items: center;
-  display: none;
 }
 
 .navbar-menu-button {
@@ -5699,7 +5698,7 @@ h1.heading-4 span {
     margin-right: -0.5rem;
     padding-bottom: 0;
     padding-right: 0;
-    display: none;
+    display: flex;
   }
 
   .menu-icon-line-top {
@@ -6860,7 +6859,7 @@ h1.heading-4 span {
   }
 
   .useful-anchor-links {
-    display: none;
+    display: block;
     flex-direction: column;
     position: relative;
     top: -1rem;
