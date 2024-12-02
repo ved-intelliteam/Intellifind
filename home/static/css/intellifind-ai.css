@@ -1920,6 +1920,7 @@ figcaption {
   position: absolute;
   left: -81px;
   overflow: visible;
+  z-index: 99;
 }
 
 .navbar-container {
@@ -5447,6 +5448,17 @@ h1.heading-4 span {
   left: 2.5rem;
 }
 
+.intellifind-matters {
+  background-color: #131314;
+  color: white;
+  padding: 20px 20px 0;
+  display: flex;
+  font-family: Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+}
+
 /* responsive quries for 480px, 576px, 767px, 991px, 1200px screen sizes  */
 @media screen and (max-width: 1200px) {
   h1.heading-4 span {
@@ -5995,6 +6007,12 @@ h1.heading-4 span {
   }
 }
 
+@media screen and (min-width: 991px) {
+  .navbar-menu-right {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .hero-tittle-class {
     font-size: 3rem;
@@ -6042,7 +6060,7 @@ h1.heading-4 span {
   }
 
   .logo-image {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     padding-left: 10px;
   }
 
@@ -6654,6 +6672,16 @@ h1.heading-4 span {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
+
+  .intellifind-matters {
+    flex-direction: column;
+  }
+  #why-matter {
+    margin-bottom: 0;
+  }
+  .intellifind-matters {
+    padding: 1rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -6827,7 +6855,7 @@ h1.heading-4 span {
 
   p {
     font-family: "Lato";
-    font-size: 6px;
+    font-size: 1rem;
   }
 
   .icon-1x1-medium {
@@ -6855,7 +6883,9 @@ h1.heading-4 span {
 
   .header-subcontent.text-color-white {
     margin-left: -9px;
-    font-size: 12px;
+    font-size: 1rem;
+    text-align: left;
+
   }
 
   .useful-anchor-links {
@@ -6888,7 +6918,7 @@ h1.heading-4 span {
     padding: 0;
     line-height: 2.7rem;
     top: -50px;
-    margin-left: 90%;
+    margin-left: 82%
   }
 
   .paragraph-first {
@@ -6938,10 +6968,10 @@ h1.heading-4 span {
   #why-matter {
     font-size: 1.8rem !important;
     font-family: "Lato";
-    position: relative;
-    top: -13rem !important;
+    /* position: relative; */
+    /* top: -13rem !important; */
     font-weight: 900;
-    left: 3rem !important;
+    /* left: 3rem !important; */
   }
 
   #paragraph-2 {
@@ -7031,9 +7061,48 @@ h1.heading-4 span {
   }
 
   .logo-image {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     padding-left: 0;
     position: relative;
-    left: 53px;
+    /* left: 53px; */
   }
+  .header-component {
+    margin-top: 0;
+  }
+  .margin-bottom.margin-xxlarge {
+    margin-bottom: 0;
+  }
+  .features-component {
+    grid-row-gap: 0;
+}
+.features-content-left {
+
+  margin-top: 0;
+}
+.invoicewhiz-features-content-left {
+  margin-top: 0;
+}
+.invoicewhiz-tagline {
+  left: 20%;
+}
+.pricing-component {
+  margin-top: 0;
+}
+#paragraph-3 {
+  font-size: 1rem;
+}
+.text-block-6 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.footer-newsletter-wrapper {
+  width: 100%;
+}
+.d-flex-child-50 div {
+  font-size: 1rem !important;
+}
+.d-flex-child-50 > :first-child {
+  width: initial;
+  font-size: 3rem !important;
+}
 }
