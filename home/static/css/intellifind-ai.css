@@ -5459,6 +5459,32 @@ h1.heading-4 span {
   justify-content: space-between;
 }
 
+.intellifind-matters-unstructured-data {
+  flex: 1;
+  border-right: 2px solid #00b8d4;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: 2rem;
+}
+
+.intellifind-matters-unused-data {
+  flex: 1;
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin-right: 3rem;
+}
+
+.intellifind-matters-percent {
+  font-size: 8vw;
+  color: #00b8d4;
+  font-weight: bold;
+}
+
+.intellifind-matters-data {
+  font-size: 1.6vw;
+  text-align: justify;
+}
+
 /* responsive quries for 480px, 576px, 767px, 991px, 1200px screen sizes  */
 @media screen and (max-width: 1200px) {
   h1.heading-4 span {
@@ -6186,6 +6212,7 @@ h1.heading-4 span {
 
   .heading-style-h1 {
     font-size: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   .heading-style-h4 {
@@ -6732,7 +6759,7 @@ h1.heading-4 span {
     background-color: #fff;
     -webkit-background-clip: text;
     background-clip: text;
-    width: 18rem;
+    /* width: 18rem; */
     font-size: 1.2rem;
     margin-top: -19px;
     margin-bottom: 45px;
@@ -6767,7 +6794,7 @@ h1.heading-4 span {
   }
 
   .text-size-tiny {
-    font-size: 8px;
+    font-size: 13px;
   }
 
   .intelliventory-tagline {
@@ -6850,7 +6877,7 @@ h1.heading-4 span {
   }
 
   .heading-style-h5 {
-    font-size: 10px;
+    font-size: 18px;
   }
 
   p {
@@ -6875,7 +6902,7 @@ h1.heading-4 span {
 
   .features-content-item.content-item-1 {
     border-width: 0;
-    height: 13rem;
+    height: 20rem;
     width: 90%;
     display: inline-block;
     top: 12%;
@@ -6893,6 +6920,13 @@ h1.heading-4 span {
     flex-direction: column;
     position: relative;
     top: -1rem;
+  }
+
+  .footer-link {
+    margin-right: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
   }
 
   .features-content-item.content-item-3 {
@@ -6918,7 +6952,8 @@ h1.heading-4 span {
     padding: 0;
     line-height: 2.7rem;
     top: -50px;
-    margin-left: 82%
+    margin-left: 82%;
+    font-size: 14px;
   }
 
   .paragraph-first {
@@ -6956,7 +6991,7 @@ h1.heading-4 span {
   .banner {
     background-color: #212224;
     padding: 20px 0;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     width: 100%;
     text-align: center;
     border-radius: 25px;
@@ -7088,6 +7123,10 @@ h1.heading-4 span {
 .pricing-component {
   margin-top: 0;
 }
+#paragraph-1 {
+  font-size: 1rem !important;
+  text-align: justify;
+}
 #paragraph-3 {
   font-size: 1rem;
 }
@@ -7098,6 +7137,21 @@ h1.heading-4 span {
 .footer-newsletter-wrapper {
   width: 100%;
 }
+.our-workspaces {
+  margin-top: 10rem;
+  font-size: 2rem;
+}
+.navbar-link {
+  padding: 0.75rem;
+}
+.navbar-component {
+  margin-left: 60px;
+  padding-right: 0;
+}
+.d-flex-child-50 {
+  flex-direction: column;
+  gap: 0;
+}
 .d-flex-child-50 div {
   font-size: 1rem !important;
 }
@@ -7105,4 +7159,75 @@ h1.heading-4 span {
   width: initial;
   font-size: 3rem !important;
 }
+.d-flex-child-50 > :last-child {
+  padding-right: 0;
+}
+.intellifind-matters-unstructured-data {
+  border-right: none;
+  padding-right: 0;
+  margin-left: 0;
+}
+
+.intellifind-matters-unused-data {
+  flex: 1;
+  padding-left: 0;
+  margin-right: 0;
+}
+.intellifind-matters-percent {
+  font-size: 2rem;
+ 
+}
+
+.intellifind-matters-data {
+  font-size: 1rem;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 361px) {
+
+  .features-content-item.content-item-1,
+  .features-content-item.content-item-2,
+  .features-content-item.content-item-3 {
+    height: 20rem;
+    width: 100%;
+  }
+
+  .heading-style-h5 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .margin-bottom.margin-xsmall {
+    margin: 0;
+  }
+
+  .icon-1x1-medium {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .card p {
+    text-align: justify;
+    font-size: 1rem;
+  }
+  .features-content-item {
+        margin-bottom: 1rem;
+     padding: 1rem;
+  }
+  .card-container {
+    padding: 0;
+  }
+  /* .pricing-component {
+    padding: 0;
+  } */
+  .text-align-center {
+    margin-bottom: 1rem;
+}
+.logo-image {
+  width: 150px;
+}
+.footer-flex {
+  gap: 1rem;
+}
+
 }
