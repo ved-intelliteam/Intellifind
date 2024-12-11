@@ -6969,14 +6969,20 @@ h1.heading-4 span {
     flex-direction: column;
     position: relative;
     top: -1rem;
+    margin: 0 auto;
   }
 
   .footer-link {
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: 20px;
     margin-top: 1rem;
     display: inline-block;
   }
+
+  .anchor-heading {
+    font-size: 2rem;
+    text-align: center;
+}
 
   .features-content-item.content-item-3 {
     border-style: none;
@@ -7231,6 +7237,10 @@ h1.heading-4 span {
 .intellifind-matters-data {
   font-size: 1rem;
   text-align: center;
+}
+.text-span-2 {
+  font-size: 13px;
+  margin-left: initial;
 }
 }
 
