@@ -3880,7 +3880,7 @@ figcaption {
 
 .cta-circle {
   z-index: 999;
-  /* background-color: var(--gradient-3); */
+  background-color: rgba(21, 107, 187, 0.5);
   filter: blur(150px);
   border-radius: 50%;
   width: 70%;
@@ -4378,7 +4378,7 @@ figcaption {
   border-style: none;
   border-width: 0;
   height: auto;
-  top: 32%;
+  top: 13%;
 }
 
 .features-content-item.content-item-3 {
@@ -5305,7 +5305,7 @@ hr {
 .banner {
   background-color: #212224;
   padding: 20px 0;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   width: 100%;
   text-align: center;
   border-radius: 25px;
@@ -5394,6 +5394,7 @@ hr {
   font-size: 4rem;
   font-family: "Lato";
   position: relative;
+  text-align: center;
 }
 
 #why-matter {
@@ -5490,6 +5491,16 @@ h1.heading-4 span {
   text-align: justify;
 }
 
+:root {
+  --background-primary: #131314;
+}
+
+hr {
+  border: 1px solid;
+  border-image: linear-gradient(90deg, #2eeddd 40%, #156cbb 100%) 1;
+}
+
+
 /* responsive quries for 480px, 576px, 767px, 991px, 1200px screen sizes  */
 @media screen and (min-width: 1200px) {
   .pl-ifai {
@@ -5510,17 +5521,38 @@ h1.heading-4 span {
   .text-block-6 {
     margin-bottom: 0;
   }
-  .cta-circle {
-    background-color: initial;
-  }
   #paragraph-1 {
-    margin-bottom: 5rem;
+    margin-bottom: 95px;
   }
   .tagline {
     margin-top: 12rem;
   }
   .mt-7rem {
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
+  }
+  .pg-55 {
+    margin-top: 55px;
+  }
+  
+  .mb-32 {
+    margin-bottom: 32px !important;
+  }
+
+  .mt-33 {
+    margin-top: 33px;
+  }
+
+  .mt-0 {
+    margin-top: 0;
+  }
+  .video-header-component {
+    margin-top: -60px;
+  }
+  .pricing-component {
+    margin-top: 0;
+  }
+  #Pricing {
+    margin-top: 0;
   }
 }
 
@@ -6078,6 +6110,9 @@ h1.heading-4 span {
   }
   .navbar-menu-right {
     padding-left: 0.75rem;
+  }
+  #header-get-started {
+    display: none;
   }
 }
 
@@ -7020,7 +7055,7 @@ h1.heading-4 span {
     font-size: 0.5rem !important;
     margin-bottom: 4rem;
     font-weight: bold;
-    padding: 0rem 2rem !important;
+    /* padding: 0rem 2rem !important; */
     position: relative;
     font-family: "Lato";
     top: 1.5rem !important;
@@ -7173,7 +7208,7 @@ h1.heading-4 span {
   margin-top: 0;
 }
 .invoicewhiz-tagline {
-  left: 50%;
+  left: 40%;
 }
 .pricing-component {
   margin-top: 0;
@@ -7241,6 +7276,10 @@ h1.heading-4 span {
 .text-span-2 {
   font-size: 13px;
   margin-left: initial;
+}
+.mt-0,
+#intelliventory  {
+  margin-top: 0;
 }
 }
 
