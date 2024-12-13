@@ -5583,6 +5583,9 @@ hr {
   .footer-newsletter-wrapper {
     padding: 2rem 2rem 2rem 2rem;
   }
+  #why-matter {
+    margin-bottom: 2rem;
+}
 }
 
 
@@ -6930,7 +6933,7 @@ hr {
     /* background-color: #0000; */
     /* background-image: none; */
     margin-top: 2px;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .get-started {
