@@ -6843,7 +6843,7 @@ hr {
     background-clip: text;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: flex;
     position: static;
   }
@@ -6863,7 +6863,7 @@ hr {
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: 900;
     display: block;
     position: static;
